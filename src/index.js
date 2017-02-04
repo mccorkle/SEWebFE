@@ -1,14 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { createStore } from 'redux'
-import Home from "./components/Home.js";
-import homeReducer from './reducers'
-
-const store = createStore(homeReducer);
+import App from "./components/App.js";
 const rootEl = document.getElementById('app');
 
+import { createStore } from 'redux'
+import main from './reducers'
+
+const store = createStore(main);
+
 const render = () => ReactDOM.render(
-  <Home/>,
+
+  <App/>,
   rootEl
 );
 
