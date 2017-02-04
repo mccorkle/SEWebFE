@@ -12,3 +12,17 @@ export const changeBlockName = (oldName, newName) => {
   }
 };
 
+export const selectInventoryBlock = (id) => {
+  return {
+    type: 'SELECT_INVENTORY_BLOCK',
+    id
+  }
+};
+
+export const deselectInventoryBlock = (id) => {
+  return {
+    type: 'DESELECT_INVENTORY_BLOCK',
+    id
+  }
+};
+
