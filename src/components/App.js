@@ -1,7 +1,7 @@
 import React from "react";
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
-import Inventory from './../containers/Inventory.js';
+import InventoryList from './../containers/InventoryList.js'
 import main from './../reducers'
 
 const store = createStore(main);
@@ -16,9 +16,7 @@ export default class App extends React.Component {
     const state = store.getState();
     return (
       <Provider store={store}>
-        <div className="inventory-list--MAIN">
-          {state.get('inventoryList').map((item, index) => <Inventory data={item} key={index} /> ) }
-        </div>
+        <InventoryList state={state}/>
       </Provider>
     );
   }
