@@ -1,0 +1,21 @@
+.inventory--MAIN {
+  background-color: $grey-1;
+  overflow: auto;
+
+  .inputfield--MAIN {
+    margin: 1.5rem 0 0 1.5rem;
+  }
+
+  .checkbox--MAIN {
+    margin: 1rem 0 0 1rem;
+    display: inline-block;
+  }
+}
+
+.inventory--properties-list {
+  margin: 2rem 0 2rem 4rem;
+
+  .checkbox--MAIN {
+    display: block;
+  }
+}

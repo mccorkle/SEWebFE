@@ -16,7 +16,7 @@ export default class App extends React.Component {
     const state = store.getState();
     return (
       <Provider store={store}>
-        <div>
+        <div className="inventory-list--MAIN">
           {state.get('inventoryList').map((item, index) => <Inventory data={item} key={index} /> ) }
         </div>
       </Provider>

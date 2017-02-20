@@ -14,7 +14,7 @@ export default class InputField extends React.Component {
 
   render() {
     return (
-        <input type="text" onBlur={() => this.props.callBack()} value={this.state.value} onChange={(e) => this.updateInputField(e)}/>
+        <input className="inputfield--MAIN" type="text" onBlur={() => this.props.callBack()} value={this.state.value} onChange={(e) => this.updateInputField(e)}/>
     );
   }
 }

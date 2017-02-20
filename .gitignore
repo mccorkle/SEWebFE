@@ -1,11 +1,13 @@
 
 # Webstorm files
 .idea/
+.sass-cache/
 
 # Frontend things
 node_modules/
 public/js/
 public/css/
+public/main.css
 
 # Logs
 logs
