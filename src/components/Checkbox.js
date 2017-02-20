@@ -13,9 +13,9 @@ export default class Checkbox extends React.Component {
   }
   render() {
     return (
-        <div>
-          <input type="checkbox" checked={this.state.checked} onChange={() => this.toggle(this.props.Name)}/>
-          <label>{this.props.label ? this.props.label : null}</label>
+        <div className="checkbox--MAIN">
+          <input className="checkbox--checkbox" type="checkbox" checked={this.state.checked} onChange={() => this.toggle(this.props.Name)}/>
+          <label className="checkbox--label">{this.props.label ? this.props.label : null}</label>
         </div>
 
     );

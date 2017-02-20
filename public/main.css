@@ -1,0 +1,41 @@
+/* line 2, ../src/stylesheets/globals/_reset.scss */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+/* line 9, ../src/stylesheets/globals/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 1, ../src/stylesheets/components/_inventory.scss */
+.inventory--MAIN {
+  background-color: #eee;
+  overflow: auto;
+}
+/* line 5, ../src/stylesheets/components/_inventory.scss */
+.inventory--MAIN .inputfield--MAIN {
+  margin: 1.5rem 0 0 1.5rem;
+}
+/* line 9, ../src/stylesheets/components/_inventory.scss */
+.inventory--MAIN .checkbox--MAIN {
+  margin: 1rem 0 0 1rem;
+  display: inline-block;
+}
+
+/* line 15, ../src/stylesheets/components/_inventory.scss */
+.inventory--properties-list {
+  margin: 2rem 0 2rem 4rem;
+}
+/* line 18, ../src/stylesheets/components/_inventory.scss */
+.inventory--properties-list .checkbox--MAIN {
+  display: block;
+}
+
+/* line 2, ../src/stylesheets/components/_inventory-list.scss */
+.inventory-list--MAIN .inventory--MAIN {
+  margin: 1rem 0;
+}
