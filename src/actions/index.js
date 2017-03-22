@@ -26,3 +26,10 @@ export const deselectInventoryBlock = (id) => {
   }
 };
 
+
+export const searchInventoryList = (newValue) => {
+  return {
+    type: 'SEARCH_INVENTORY_LIST',
+    newValue
+  }
+};
